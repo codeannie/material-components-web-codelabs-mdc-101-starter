@@ -1,3 +1,5 @@
+@import "@material/textfield/mdc-text-field";
+
 html, body {
   height: 100%;
 }
@@ -19,6 +21,13 @@ body {
   height: 150px;
   padding-top: 80px;
   fill: currentColor;
+}
+
+.username,
+.password {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
 }
 
 // Home page styles
